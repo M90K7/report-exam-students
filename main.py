@@ -44,7 +44,7 @@ def my_final_grade_calculation(fileName):
         total_score = q_weight + a_weight + mid_weight + final_weight
         
         # بررسی نمره کل
-        result = "pass" if total_score > 60 else "fail"  # بررسی وضعیت نمره
+        result = "pass" if total_score >= 60 else "fail"  # بررسی وضعیت نمره
         
         students[name] = result
 
